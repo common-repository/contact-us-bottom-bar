@@ -1,0 +1,19 @@
+.footer-contact-wrapper,.footer-contact-mobile-wrapper {left: 0;right: 0;margin: auto;position: fixed;z-index: 9999;display: flex;justify-content: center;text-align: center;}
+.footer-contact-wrapper {bottom: 10px;}
+.footer-contact-wrapper a, .footer-contact-mobile-content a {text-decoration: none;}
+.footer-contact-mobile-wrapper {bottom: 0;}
+.footer-contact-mobile {position: relative;}
+.footer-contact {background: #222222;display: inline-block;}
+.footer-contact,.footer-contact a {padding: 10px;border-radius: 5px;}
+.footer-contact a {background: #333333;display: inline-flex;align-items: center;}
+.tel .icon,.messenger .icon,.zalo .icon,.address .icon {width: 28px;height: 28px;margin-right: 5px;display: inline-block;background: url("../img/telfix.gif") no-repeat scroll left top transparent;}
+.tel .icon {background-position: 0px 0px;}
+.messenger .icon {background-position: -28px 0px;}
+.zalo .icon {background-position: -56px 0px;}
+.address .icon {background-position: -84px 0px;}
+.footer-contact,.footer-contact a,.footer-contact a:hover,.footer-contact a:focus,.footer-contact a:visited,.footer-contact-mobile-wrapper,.footer-contact-mobile-wrapper a,.footer-contact-mobile-wrapper a:hover,.footer-contact-mobile-wrapper a:focus,.footer-contact-mobile-wrapper a:visited {color: #FFF;}
+.footer-contact a:hover,.footer-contact a:focus {text-decoration: none;}
+.footer-contact-mobile-wrapper {display: flex;justify-content: space-around;background: #333;}
+.footer-contact-mobile-content {padding: 5px 0;text-align: center;}
+.icon-footer-contact-mobile {width: 30px !important;height: 30px !important;object-fit: contain;}
+.footer-contact-mobile-wrapper p {margin: 0;}
